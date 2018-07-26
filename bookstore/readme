@@ -1,0 +1,14 @@
+This project is an application to add, update, serach and delete books.
+It has a working front end GUI and a working back end database to store the data.
+The database location is a reltive location based on the current working directory
+
+The final project is compiled into an executable.
+It uses the PyInstaller to build the executable.
+    pip install pyinstaller
+To build we must call pyinstaller and point it to the front end script
+Must change directories to the one that contains the scripts
+    pyinstaller frontend.py
+    #or for one file use
+    pyinstaller --onefile --windowed frontend.py
+    #to run in debug mode if there is an error add the debug parameter
+    pyinstaller --onefile --debug frontend.py

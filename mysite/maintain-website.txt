@@ -1,0 +1,21 @@
+Maintain website
+
+#make any changes you want
+#use cmd to browse to demo folder
+#enter heroku credentials
+heroku login 
+#follow password prompts
+
+#make sure you are connected to heroku
+heroku info
+
+#commit changes
+git commit -m "next commit, change heading color"
+
+#add changes to git repository
+git add .
+
+#push changes
+git push heroku master
+
+

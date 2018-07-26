@@ -1,0 +1,8 @@
+#first import the library
+import folium
+
+#second get a list or its functions
+dir(folium)
+
+#third ask ofr help on any of its functions
+help(folium.Map)
